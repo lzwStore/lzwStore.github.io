@@ -105,7 +105,7 @@ deploy:
   type: git
   repo:
     github:
-      url: git@github.com:blog/blog  # 记得把username替换为自己的用户名
+      url: git@github.com:lzw-store/lzw-store.github.io.git  # 记得把username替换为自己的用户名
       branch: main #2020年10月后github新建仓库默认分支改为main，注意修改
     # 也可以用另一种写法,二选一即可
     # github: git@github.com:username/username.github.io.git,master
