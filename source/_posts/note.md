@@ -6,6 +6,8 @@ categories:
 type: "note"
 tag: [笔记]
 feature: true
+# 头图
+top_img: /img/1.png
 ---
 
 # Hexo搭建博客

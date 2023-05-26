@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 哈基米~博客
-subtitle: '博客'
+title: ''
+subtitle: ''
 description: ''
 keywords:
-author: Aurora
+author: 
 language: zh-CN
 timezone: ''
 
@@ -24,7 +24,7 @@ menu:
   旅游: /tour/ || fas fa-folder-open
   清单||fa fa-heartbeat:
     音乐: /music/ || fas fa-music
-    照片: /Gallery/ || fas fa-images
+    相册: /gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
   关于: /about/ || fas fa-heart
 
@@ -38,9 +38,12 @@ avatar:
   img: /img/avatar.png
   effect: false # 頭像會一直轉圈
 
-#
-top_img: 
-  index_img: /img/cover.jpg
+# 文章头图
+top_img: ''
+default_top_img: /img/cover.png
+
+# 主页封面图
+index_img: /img/top_img.png
 
 # 文章封面
 cover:
@@ -50,9 +53,9 @@ cover:
   archives_enable: true
   # 封面顯示的位置
   # 三個值可配置 left , right , both
-  position: both
+  position: left
   # 文章封面 - 当文章没有展示图是默认展示这个图
-  default_cover: /img/cover.jpg
+  default_cover: /img/2.png
 
 # 主页的Meta展示
 post_meta:
@@ -84,7 +87,7 @@ darkmode:
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
-permalink: /post/:title.html
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -180,8 +183,15 @@ error_404:
   subtitle: "頁面沒有找到"
   background: 
 
+inject:
+  # 自定义css
+  head:
+    - <link rel="stylesheet" href="/css/progress.css">
+  # 自定义js
+  bottom:
+    - <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repo:

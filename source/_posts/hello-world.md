@@ -2,6 +2,7 @@
 title: 第一篇笔记
 categories: 学习笔记
 tags: [生活, 学习]  # 逗号是英文逗号
+cover: /img/5.png
 ---
 
 ## Quick Start
