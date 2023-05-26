@@ -3,13 +3,83 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 博客
+title: 哈基米~博客
 subtitle: '博客'
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Aurora
+language: zh-CN
 timezone: ''
+
+nav:
+  logo: /img/avatar.png
+  display_title: true
+  fixed: false # fixed navigation bar
+
+menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  旅游: /tour/ || fas fa-folder-open
+  清单||fa fa-heartbeat:
+    音乐: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    电影: /movies/ || fas fa-video
+  关于: /about/ || fas fa-heart
+
+# 社交
+social:
+  fab fa-github: https://github.com/lzwStore || Github || "#hdhfbb"
+  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || "#000000"
+
+# 头像
+avatar:
+  img: /img/avatar.png
+  effect: false # 頭像會一直轉圈
+
+#
+top_img: 
+  index_img: /img/cover.jpg
+
+# 文章封面
+cover:
+  # 是否顯示文章封面
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  # 封面顯示的位置
+  # 三個值可配置 left , right , both
+  position: both
+  # 文章封面 - 当文章没有展示图是默认展示这个图
+  default_cover: /img/cover.jpg
+
+# 主页的Meta展示
+post_meta:
+  page:
+    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_format: relative # date/relative 顯示日期還是相對日期
+    categories: true # true or false 主頁是否顯示分類
+    tags: true # true or false 主頁是否顯示標籤
+    label: true # true or false 顯示描述性文字
+  post:
+    date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
+    date_format: relative # date/relative 顯示日期還是相對日期
+    categories: true # true or false 文章頁是否顯示分類
+    tags: true # true or false 文章頁是否顯示標籤
+    label: true # true or false 顯示描述性文字
+
+# 主题展示
+darkmode:
+  enable: true
+  # dark mode和 light mode切換按鈕
+  button: true
+  autoChangeMode: false
+  # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
+  start: # 8
+  end: # 22
+
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -43,6 +113,12 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+# 代码主题
+highlight_theme: pale night
+# 代码复制
+highlight_copy: true
+# 代码高度
+highlight_height_limit: 200 # unit: px
 highlight:
   enable: false
   line_number: true
@@ -98,6 +174,11 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+
+error_404:
+  enable: true
+  subtitle: "頁面沒有找到"
+  background: 
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

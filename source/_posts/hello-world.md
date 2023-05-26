@@ -1,9 +1,8 @@
 ---
-title: Hello World
+title: 第一篇笔记
 categories: 学习笔记
-tags: [标签1, 标签2hexo]  # 逗号是英文逗号
+tags: [生活, 学习]  # 逗号是英文逗号
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ## Quick Start
 
