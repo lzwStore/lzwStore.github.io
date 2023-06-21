@@ -11,8 +11,11 @@ author:
 language: zh-CN
 timezone: ''
 
+# 网址图标 favicon
+favicon: /img/logo/avatar.png
+
 nav:
-  logo: /img/avatar.png
+  logo: /img/logo/avatar.png
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -21,8 +24,9 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  旅游: /tour/ || fas fa-folder-open
   清单||fa fa-heartbeat:
+    笔记: /list/ || fas fa-folder-open
+    旅游: /tour/ || fas fa-mountain-sun
     音乐: /music/ || fas fa-music
     相册: /gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
@@ -33,9 +37,26 @@ social:
   fab fa-github: https://github.com/lzwStore || Github || "#hdhfbb"
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || "#000000"
 
+# 侧边栏
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true # display on mobile
+  position: right # left or right
+  card_author:
+    enable: true
+    description:
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/lzwStore
+
+
 # 头像
 avatar:
-  img: /img/avatar.png
+  img: /img/logo/avatar.png
   effect: false # 頭像會一直轉圈
 
 # 文章头图
@@ -121,7 +142,7 @@ highlight_theme: pale night
 # 代码复制
 highlight_copy: true
 # 代码高度
-highlight_height_limit: 200 # unit: px
+highlight_height_limit: 500 # unit: px
 highlight:
   enable: false
   line_number: true
@@ -173,6 +194,27 @@ include:
 exclude:
 ignore:
 
+# canvas_nest
+# https://github.com/hustcc/canvas-nest.js
+canvas_nest:
+  enable: true
+  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  opacity: 0.7 # the opacity of line (0~1), default: 0.5.
+  zIndex: -1 # z-index property of the background, default: -1.
+  count: 99 # the number of lines, default: 99.
+  mobile: false
+
+# 赞赏
+reward:
+  enable: false
+  QR_code:
+   # - img: /img/wechat.jpg
+   #   link:
+   #   text: wechat
+   # - img: /img/alipay.jpg
+   #   link:
+   #   text: alipay
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -181,7 +223,7 @@ theme: butterfly
 error_404:
   enable: true
   subtitle: "頁面沒有找到"
-  background: 
+  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.pagination
 
 inject:
   # 自定义css
@@ -190,6 +232,8 @@ inject:
   # 自定义js
   bottom:
     - <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    - <script src="https://myhkw.cn/player/js/jquery.min.js" type="text/javascript"></script>
+    - <script src="https://myhkw.cn/api/player/demo" id="myhk" key="demo" skin="player" lr="l" m="1"></script>
 
 # Deployment
 deploy:
