@@ -1848,7 +1848,7 @@ pre[class*='language-'] .token.entity {
 #article-container .code-expand-btn:not(.expand-done) ~ table,
 #article-container .code-expand-btn:not(.expand-done) ~ pre {
   overflow: hidden;
-  height: 200px;
+  height: 500px;
 }
 @-moz-keyframes code-expand-key {
   0% {
