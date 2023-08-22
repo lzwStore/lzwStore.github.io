@@ -114,6 +114,10 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
+# 双栏布局
+butterfly_article_double_row:
+  enable: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

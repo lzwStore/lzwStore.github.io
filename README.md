@@ -1,3 +1,9 @@
+
+## 一键启动
+```js
+hexo clean && hexo g && hexo s
+```
+
 ### 启动项目
 ```js
 # 启动本地服务
