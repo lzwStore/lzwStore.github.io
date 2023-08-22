@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '哈基米'
-subtitle: 'lzw - Blog'
+title: '枫'
+subtitle: 'lzw'
 description: ''
 keywords:
-author: '哈基米'
+author: '枫'
 language: zh-CN
 timezone: ''
 
@@ -94,7 +94,7 @@ meta_generator: true
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+# time_format: 
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'
 

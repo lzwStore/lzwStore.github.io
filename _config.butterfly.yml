@@ -25,7 +25,6 @@ menu:
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   清单||fa fa-heartbeat:
-    笔记: /list/ || fas fa-folder-open
     旅游: /tour/ || fas fa-mountain-sun
     音乐: /music/ || fas fa-music
     相册: /gallery/ || fas fa-images
@@ -179,7 +178,7 @@ meta_generator: true
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+# time_format: 
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'
 

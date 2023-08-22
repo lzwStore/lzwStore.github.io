@@ -82,3 +82,13 @@ git reset --hard b7de7a23fa3　
 git reset ORIG_HEAD
 
 ```
+
+# git cherry-pick
+
+```bash
+# 把某次提交的内容提取到当前分支
+git cherry-pick commitId
+
+```
+
+
