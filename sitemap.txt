@@ -11,13 +11,13 @@ http://example.com/gallery/index.html
 http://example.com/movies/index.html
 http://example.com/tags/index.html
 http://example.com/
+http://example.com/tags/git/
 http://example.com/tags/js/
-http://example.com/tags/%E7%AC%94%E8%AE%B0/
 http://example.com/tags/vue/
 http://example.com/tags/%E5%89%8D%E7%AB%AF/
-http://example.com/tags/git/
+http://example.com/tags/%E7%AC%94%E8%AE%B0/
 http://example.com/categories/%E5%89%8D%E7%AB%AF/
-http://example.com/categories/%E7%AC%94%E8%AE%B0/
 http://example.com/categories/%E5%89%8D%E7%AB%AF/git/
 http://example.com/categories/%E5%89%8D%E7%AB%AF/js/
 http://example.com/categories/%E5%89%8D%E7%AB%AF/vue/
+http://example.com/categories/%E7%AC%94%E8%AE%B0/
