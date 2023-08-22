@@ -3049,6 +3049,30 @@ h1.page-title + .tag-cloud-list {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+.page .card-categories {
+  -webkit-box-ordinal-group: true;
+  -moz-box-ordinal-group: true;
+  -o-box-ordinal-group: true;
+  -ms-flex-order: true;
+  -webkit-order: true;
+  order: true;
+}
+.page .card-tags {
+  -webkit-box-ordinal-group: true;
+  -moz-box-ordinal-group: true;
+  -o-box-ordinal-group: true;
+  -ms-flex-order: true;
+  -webkit-order: true;
+  order: true;
+}
+.page .card-archives {
+  -webkit-box-ordinal-group: true;
+  -moz-box-ordinal-group: true;
+  -o-box-ordinal-group: true;
+  -ms-flex-order: true;
+  -webkit-order: true;
+  order: true;
+}
 @-moz-keyframes more-btn-move {
   0%, 100% {
     -webkit-transform: translateX(0);
